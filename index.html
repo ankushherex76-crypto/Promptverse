@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PromptVerse</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:#fff;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#6C3BFF,#00C2FF);
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin-bottom:30px;
+}
+
+.btn{
+background:white;
+color:#111;
+padding:15px 35px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+transition:.3s;
+box-shadow:0 0 20px rgba(255,255,255,.4);
+}
+
+.btn:hover{
+transform:scale(1.08);
+box-shadow:0 0 35px #00C2FF;
+
+}
+
+.section{
+padding:70px 10%;
+}
+
+  
+}
+
+  .card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,.15);
+padding:25px;
+border-radius:20px;
+transition:.35s;
+}
+
+.card:hover{
+transform:translateY(-12px) scale(1.02);
+box-shadow:0 0 25px rgba(0,194,255,.45);
+}
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+}
+  
+  html{
+scroll-behavior:smooth;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(-45deg,#6C3BFF,#00C2FF,#7C3AED,#06B6D4);
+background-size:400% 400%;
+animation:bgMove 10s ease infinite;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+  }
+</style>
+
+</head>
+<body>
+
+<nav>
+<h2>PromptVerse</h2>
+
+<div>
+<a href="#">Home</a>
+<a href="#tools">Tools</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h1>Build Websites with AI</h1>
+
+<p>Create modern websites, AI tools and digital solutions.</p>
+
+<a class="btn" href="#services">Get Started</a>
+
+</section>
+
+<section class="section" id="tools">
+
+<h2>Popular AI Tools</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>ChatGPT</h3>
+<p>AI Chat Assistant</p>
+</div>
+
+<div class="card">
+<h3>Claude</h3>
+<p>AI Writing Tool</p>
+</div>
+
+<div class="card">
+<h3>Gemini</h3>
+<p>Google AI</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Website Development</h3>
+</div>
+
+<div class="card">
+<h3>Landing Pages</h3>
+</div>
+
+<div class="card">
+<h3>Portfolio Websites</h3>
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<h2>PromptVerse</h2>
+
+<p>Made with ❤️ using GitHub Pages</p>
+
+</footer>
+
+</body>
+  </html>
