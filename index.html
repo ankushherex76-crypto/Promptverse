@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PromptVerse AI | Premium AI Tools & Prompt Marketplace</title>
 <meta name="description" content="PromptVerse AI provides premium AI prompts, tools, website services, and AI-powered solutions to boost creativity and productivity.">
-
+<link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 <meta name="keywords" content="AI prompts, ChatGPT prompts, Midjourney prompts, AI tools, PromptVerse, AI marketplace">
 
 <meta name="author" content="PromptVerse AI">
@@ -192,7 +193,7 @@ animation:bgMove 10s ease infinite;
 
 </nav>
 
-<section class="hero">
+<section class="hero" data-aos="fade-up">
 
 <h1 id="typing"></h1>
 <p id="subtitle"></p>
@@ -226,7 +227,7 @@ animation:bgMove 10s ease infinite;
 
 </section>
 
-<section class="section" id="services">
+<section class="section" id="services" data-aos="fade-up">
 
 <h2>Our Services</h2>
 
@@ -247,7 +248,7 @@ animation:bgMove 10s ease infinite;
 </div>
 
 </section>
-<section class="section" id="pricing">
+<section class="section" id="pricing" data-aos="fade-up">
 <h2>Pricing</h2>
 
 <div class="cards">
@@ -372,6 +373,14 @@ themeBtn.onclick = () => {
     themeBtn.innerHTML = "🌙";
   }
 };
+</script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+  duration: 1000,
+  once: true
+});
 </script>
 </body>
   </html>
